@@ -66,6 +66,7 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 dependencies {
+    testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.17.2'
     // JUnit
     testImplementation "org.junit.jupiter:junit-jupiter:${junitVersion}"
     // Allure
